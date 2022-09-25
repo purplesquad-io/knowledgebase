@@ -10,6 +10,7 @@
 
 ## Payload collection
 * [Payloadbox](https://github.com/payloadbox)
+* [exploit-db](https://www.exploit-db.com/)
 
 ## Markdown
 * [Markdown guide](https://www.markdownguide.org)

@@ -18,10 +18,11 @@ nav:
       - SQL injection: "vulnerability-topics/sql-injection.md"
     - Client side:
       - Cross-site scripting: "vulnerability-topics/cross-site-scripting.md"
-  - Tools and Resources:
-    - Overview: "tools-resources/overview.md"
-    - Tools: "tools-resources/tools.md"
-    - Resources: "tools-resources/resources.md"
+  - Resources:
+    - Overview: "resources/overview.md"
+    - Certification: "resources/certification.md"
+    - Tools: "resources/tools.md"
+    - Links: "resources/links.md"
   - About: about.md
 
 theme:
