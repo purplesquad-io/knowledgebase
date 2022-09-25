@@ -2,12 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://knowledebase.purplesquad.io/</loc>
-         <lastmod>2022-09-18</lastmod>
+         <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledebase.purplesquad.io/about/</loc>
-         <lastmod>2022-09-18</lastmod>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/blue-team/blue-team/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/red-team/red-team/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/tools-resources/overview/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/tools-resources/resources/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/tools-resources/tools/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/vulnerability-topics/cross-site-scripting/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/vulnerability-topics/overview/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/vulnerability-topics/sql-injection/</loc>
+         <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
