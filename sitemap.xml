@@ -21,17 +21,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledebase.purplesquad.io/tools-resources/overview/</loc>
+         <loc>https://knowledebase.purplesquad.io/resources/certification/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledebase.purplesquad.io/tools-resources/resources/</loc>
+         <loc>https://knowledebase.purplesquad.io/resources/links/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledebase.purplesquad.io/tools-resources/tools/</loc>
+         <loc>https://knowledebase.purplesquad.io/resources/overview/</loc>
+         <lastmod>2022-09-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledebase.purplesquad.io/resources/tools/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
