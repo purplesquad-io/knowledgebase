@@ -54,8 +54,8 @@ extra:
       link: https://github.com/purplesquad-io
   generator: true
 
-repo_url: https://github.com/purplesquad-io/knowledebase
-repo_name: knowledebase
+repo_url: https://github.com/purplesquad-io/knowledgebase
+repo_name: knowledgebase
 
 copyright: Copyright &copy; 2022 - 2022 purplesquad
 
