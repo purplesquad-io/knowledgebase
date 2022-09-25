@@ -11,6 +11,7 @@
 ## Payload collection
 * [Payloadbox](https://github.com/payloadbox)
 * [exploit-db](https://www.exploit-db.com/)
+* [OCSAF scripts](https://github.com/OCSAF)
 
 ## Markdown
 * [Markdown guide](https://www.markdownguide.org)
