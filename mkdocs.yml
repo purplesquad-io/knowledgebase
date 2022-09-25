@@ -7,7 +7,21 @@ site_description: >-
   Add a site description
 
 nav:
-  - Home: index.md
+  - Home: "index.md"
+  - Red team:
+    - Overview: "red-team/red-team.md"
+  - Blue team:
+      - Overview: "blue-team/blue-team.md"
+  - Vulnerability topics:
+    - Overview: "vulnerability-topics/overview.md"
+    - Server side:
+      - SQL injection: "vulnerability-topics/sql-injection.md"
+    - Client side:
+      - Cross-site scripting: "vulnerability-topics/cross-site-scripting.md"
+  - Tools and Resources:
+    - Overview: "tools-resources/overview.md"
+    - Tools: "tools-resources/tools.md"
+    - Resources: "tools-resources/resources.md"
   - About: about.md
 
 theme:
@@ -18,8 +32,13 @@ theme:
   favicon: assets/img/favicon.ico
   palette:
     scheme: slate
+    primary: indigo
   icon:
     repo: fontawesome/brands/git-alt
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
 
 markdown_extensions:
   - admonition
