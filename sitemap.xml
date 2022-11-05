@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://knowledgebase.purplesquad.io/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/about/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/blue-team/blue-team/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/red-team/red-team/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/resources/certification/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/resources/links/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/resources/overview/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/resources/tools/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/vulnerability-topics/cross-site-scripting/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/vulnerability-topics/overview/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.purplesquad.io/vulnerability-topics/sql-injection/</loc>
-         <lastmod>2022-09-25</lastmod>
+         <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
