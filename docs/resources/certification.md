@@ -26,7 +26,8 @@
 
 #### [CompTIA](https://www.comptia.org/)
 * [CompTIA PenTest+](https://www.comptia.org/de/zertifizierungen/pentest)
-
+* [CompTIA CASP+](https://www.comptia.org/certifications/comptia-advanced-security-practitioner)
 #### [PECB](https://pecb.com/en)
 
 #### [EXIN](https://www.exin.com)
+* [EXIN Ethical Hacking](https://www.exin.com/data-protection-security/exin-ethical-hacking/exin-ethical-hacking-foundation/)
