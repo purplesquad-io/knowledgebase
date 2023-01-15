@@ -12,12 +12,26 @@ nav:
     - Overview: "red-team/red-team.md"
   - Blue team:
       - Overview: "blue-team/blue-team.md"
-  - Vulnerability topics:
-    - Overview: "vulnerability-topics/overview.md"
-    - Server side:
-      - SQL injection: "vulnerability-topics/sql-injection.md"
-    - Client side:
-      - Cross-site scripting: "vulnerability-topics/cross-site-scripting.md"
+  - Attacks:
+      - Overview: "attacks/overview.md"
+      - Web Application attacks:
+          - SQL injection: "attacks/web-application-attacks/sql-injection.md"
+          - Authentication vulnerabilities: "attacks/overview"
+          - Directory traversal: "attacks/overview"
+          - OS command injection: "attacks/overview"
+          - Business logic vulnerabilities: "attacks/overview"
+          - Information disclosure vulnerabilities: "attacks/overview"
+          - Access control vulnerabilities and privilege escalation: "attacks/overview"
+          - File upload vulnerabilities: "attacks/overview"
+          - Server-side request forgery (SSRF): "attacks/overview"
+          - XML external entity (XXE) injection: "attacks/overview"
+          - Cross-site scripting: "attacks/web-application-attacks/cross-site-scripting.md"
+      - Network attacks:
+          - Man in the middle: "attacks/overview"
+          - TCP/IP attacks: "attacks/overview"
+          - ARP spoofing: "attacks/overview"
+          - DNS spoofing: "attacks/overview"
+          - Wireless attacks: "attacks/overview"
   - Resources:
     - Overview: "resources/overview.md"
     - Certification: "resources/certification.md"
