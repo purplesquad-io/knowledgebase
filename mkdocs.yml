@@ -8,10 +8,15 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Hacking training:
-      - OWASP Juice Shop: hacking-training/owasp-juice-shop.md
-      - OWASP WebGoat: hacking-training/owasp-webgoat.md
-      - Web Security Academy: hacking-training/web-security-academy.md
+  - Learn Ethical Hacking:
+      - Fundamentals: learn/ethical-hacking-fundamentals.md
+      - Concepts and Principles: learn/hacking-concepts-and-principles.md
+      - Techniques and Tools: learn/hacking-techniques-and-tools.md
+      - Types of Attacks: learn/hacking-types-of-attacks.md
+      - Practical Training:
+        - OWASP Juice Shop: learn/owasp-juice-shop.md
+        - OWASP WebGoat: learn/owasp-webgoat.md
+        - Web Security Academy: learn/web-security-academy.md
 
 #  - Web Application attacks:
 #    - web-application-attacks/index.md
@@ -36,11 +41,11 @@ nav:
 #    - DNS spoofing: "network-attacks/index.md"
 #    - Wireless attacks: "network-attacks/index.md"
 #  - Blog: "blog.md"
-  - Resources:
+  - Tools and Resources: resources/tools-and-resources.md
 #    - Resources: "resources/resources.md"
 #    - Certification: "resources/certification.md"
-    - Tools: "resources/tools.md"
-    - Links: "resources/links.md"
+#    - Tools: "
+#    - Links: "resources/links.md"
 
 
 theme:
