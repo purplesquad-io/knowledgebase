@@ -12,14 +12,14 @@
         <meta name="author" content="purplesquad">
       
       
-        <link rel="canonical" href="https://knowledgebase.purplesquad.io/vulnerability-topics/overview/">
+        <link rel="canonical" href="https://knowledgebase.purplesquad.io/hacking-training/owasp-juice-shop/">
       
       <link rel="icon" href="../../assets/img/favicon.ico">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.1">
     
     
       
-        <title>Overview - purplesquad knowledge base</title>
+        <title>OWASP Juice Shop - purplesquad knowledge base</title>
       
     
     
@@ -27,10 +27,6 @@
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#4051b5">
         
       
       
@@ -47,6 +43,8 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -62,7 +60,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="purplesquad" data-md-color-primary="" data-md-color-accent="">
   
     
     
@@ -70,6 +68,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#official-links" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -101,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              OWASP Juice Shop
             
           </span>
         </div>
@@ -146,38 +149,6 @@
         
   
   
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../red-team/red-team/" class="md-tabs__link">
-        Red team
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../blue-team/blue-team/" class="md-tabs__link">
-        Blue team
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
     
   
 
@@ -187,7 +158,7 @@
   
     <li class="md-tabs__item">
       <a href="./" class="md-tabs__link md-tabs__link--active">
-        Vulnerability topics
+        Hacking training
       </a>
     </li>
   
@@ -202,23 +173,11 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../resources/overview/" class="md-tabs__link">
+      <a href="../../resources/tools/" class="md-tabs__link">
         Resources
       </a>
     </li>
   
-
-      
-        
-  
-  
-
-
-  <li class="md-tabs__item">
-    <a href="../../about/" class="md-tabs__link">
-      About
-    </a>
-  </li>
 
       
     </ul>
@@ -291,25 +250,27 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
       
         <label class="md-nav__link" for="__nav_2">
-          Red team
+          Hacking training
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Red team" data-md-level="1">
+      <nav class="md-nav" aria-label="Hacking training" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Red team
+          Hacking training
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -317,10 +278,164 @@
               
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OWASP Juice Shop
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        OWASP Juice Shop
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#official-links" class="md-nav__link">
+    Official Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-docker-image" class="md-nav__link">
+    Download docker image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run" class="md-nav__link">
+    Run
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start" class="md-nav__link">
+    Start
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges" class="md-nav__link">
+    Challenges
+  </a>
+  
+    <nav class="md-nav" aria-label="Challenges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#challenges_1" class="md-nav__link">
+    &#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_2" class="md-nav__link">
+    &#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_3" class="md-nav__link">
+    &#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_4" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_5" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_6" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
   
     <li class="md-nav__item">
-      <a href="../../red-team/red-team/" class="md-nav__link">
-        Overview
+      <a href="../owasp-webgoat/" class="md-nav__link">
+        OWASP WebGoat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web-security-academy/" class="md-nav__link">
+        Web Security Academy
       </a>
     </li>
   
@@ -350,248 +465,16 @@
       
       
         <label class="md-nav__link" for="__nav_3">
-          Blue team
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Blue team" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Blue team
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blue-team/blue-team/" class="md-nav__link">
-        Overview
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          Vulnerability topics
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Vulnerability topics" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Vulnerability topics
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Overview
-      </a>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_2">
-          Server side
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Server side" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
-          <span class="md-nav__icon md-icon"></span>
-          Server side
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sql-injection/" class="md-nav__link">
-        SQL injection
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_3">
-          Client side
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Client side" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
-          <span class="md-nav__icon md-icon"></span>
-          Client side
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cross-site-scripting/" class="md-nav__link">
-        Cross-site scripting
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
           Resources
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Resources" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Resources
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../resources/overview/" class="md-nav__link">
-        Overview
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../resources/certification/" class="md-nav__link">
-        Certification
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -627,21 +510,6 @@
   
 
     
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -660,6 +528,110 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#official-links" class="md-nav__link">
+    Official Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-docker-image" class="md-nav__link">
+    Download docker image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run" class="md-nav__link">
+    Run
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start" class="md-nav__link">
+    Start
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges" class="md-nav__link">
+    Challenges
+  </a>
+  
+    <nav class="md-nav" aria-label="Challenges">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#challenges_1" class="md-nav__link">
+    &#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_2" class="md-nav__link">
+    &#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_3" class="md-nav__link">
+    &#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_4" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_5" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges_6" class="md-nav__link">
+    &#9733;&#9733;&#9733;&#9733;&#9733;&#9733; Challenges
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -672,22 +644,133 @@
                 
                   
 
-  <a href="https://github.com/purplesquad-io/knowledgebase/edit/master/docs/vulnerability-topics/overview.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/purplesquad-io/knowledgebase/edit/master/docs/hacking-training/owasp-juice-shop.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-  <h1>Overview</h1>
+  <h1>OWASP Juice Shop</h1>
 
-
+<p>OWASP Juice Shop is an Angular/Node.js based vulnerable web application written by <a href="https://github.com/bkimminich">Björn Kimminich</a>.</p>
+<h3 id="official-links">Official Links</h3>
+<ul>
+<li><a href="https://owasp.org/www-project-juice-shop/">Website</a></li>
+<li><a href="https://github.com/juice-shop/juice-shop">Github</a></li>
+<li><a href="https://pwning.owasp-juice.shop/">Documentation</a></li>
+</ul>
+<h3 id="installation">Installation</h3>
+<h4 id="download-docker-image">Download docker image</h4>
+<div class="highlight"><pre><span></span><code>docker pull bkimminich/juice-shop
+</code></pre></div>
+<h4 id="run">Run</h4>
+<div class="highlight"><pre><span></span><code>docker run --rm -p <span class="m">3000</span>:3000 bkimminich/juice-shop
+</code></pre></div>
+<h4 id="start">Start</h4>
+<p>Browse to <a href="http://localhost:3000">http://localhost:3000</a></p>
+<h3 id="challenges">Challenges</h3>
+<h4 id="challenges_1">&#9733; Challenges</h4>
+<table>
+<thead>
+<tr>
+<th>Challenge description</th>
+<th>Category</th>
+<th>Difficulty</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://pwning.owasp-juice.shop/part2/score-board.html#find-the-carefully-hidden-score-board-page">&#9099; Score Board</a></td>
+<td>Miscellaneous</td>
+<td>&#9733;</td>
+<td><a href="https://pwning.owasp-juice.shop/appendix/solutions.html#find-the-carefully-hidden-score-board-page">&#9099; Find the carefully hidden score board</a></td>
+</tr>
+<tr>
+<td><a href="https://pwning.owasp-juice.shop/part2/xss.html#perform-a-dom-xss-attack">&#9099; DOM XSS</a></td>
+<td>XSS</td>
+<td>&#9733;</td>
+<td><a href="https://pwning.owasp-juice.shop/appendix/solutions.html#perform-a-dom-xss-attack">&#9099; Perform a dom xss attack</a></td>
+</tr>
+<tr>
+<td>Bonus Payload</td>
+<td>Miscellaneous</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Bully Chatbot</td>
+<td>Sensitive Data Exposure</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Confidential Document</td>
+<td>XSS</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Error Handling</td>
+<td>Sensitive Data Exposure</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Exposed Metrics</td>
+<td>Miscellaneous</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Missing Encoding</td>
+<td>Improper Input Validation</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Outdated Allowlist</td>
+<td>Unvalidated Redirects</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Privacy Policy</td>
+<td>Miscellaneous</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Repetitive Registration</td>
+<td>Improper Input Validation</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+<tr>
+<td>Zero Stars</td>
+<td>Improper Input Validation</td>
+<td>&#9733;</td>
+<td>Coming soon</td>
+</tr>
+</tbody>
+</table>
+<h4 id="challenges_2">&#9733;&#9733; Challenges</h4>
+<p>coming soon</p>
+<h4 id="challenges_3">&#9733;&#9733;&#9733; Challenges</h4>
+<p>coming soon</p>
+<h4 id="challenges_4">&#9733;&#9733;&#9733;&#9733; Challenges</h4>
+<p>coming soon</p>
+<h4 id="challenges_5">&#9733;&#9733;&#9733;&#9733;&#9733; Challenges</h4>
+<p>coming soon</p>
+<h4 id="challenges_6">&#9733;&#9733;&#9733;&#9733;&#9733;&#9733; Challenges</h4>
+<p>coming soon</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 25, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 19, 2023</span>
       
     
   </small>
@@ -712,7 +795,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../../blue-team/blue-team/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
+        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -721,20 +804,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Overview
+              Home
             </div>
           </div>
         </a>
       
       
         
-        <a href="../sql-injection/" class="md-footer__link md-footer__link--next" aria-label="Next: SQL injection" rel="next">
+        <a href="../owasp-webgoat/" class="md-footer__link md-footer__link--next" aria-label="Next: OWASP WebGoat" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              SQL injection
+              OWASP WebGoat
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -749,7 +832,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2022 - 2022 purplesquad
+      Copyright &copy; 2022 - 2023 purplesquad
     </div>
   
   
@@ -791,7 +874,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.d691e9de.min.js"></script>
