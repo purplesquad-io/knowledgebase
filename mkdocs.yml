@@ -7,37 +7,41 @@ site_description: >-
   Add a site description
 
 nav:
-  - Home: "index.md"
-  - Red team:
-    - Overview: "red-team/red-team.md"
-  - Blue team:
-      - Overview: "blue-team/blue-team.md"
-  - Attacks:
-      - Overview: "attacks/overview.md"
-      - Web Application attacks:
-          - SQL injection: "attacks/web-application-attacks/sql-injection.md"
-          - Authentication vulnerabilities: "attacks/overview"
-          - Directory traversal: "attacks/overview"
-          - OS command injection: "attacks/overview"
-          - Business logic vulnerabilities: "attacks/overview"
-          - Information disclosure vulnerabilities: "attacks/overview"
-          - Access control vulnerabilities and privilege escalation: "attacks/overview"
-          - File upload vulnerabilities: "attacks/overview"
-          - Server-side request forgery (SSRF): "attacks/overview"
-          - XML external entity (XXE) injection: "attacks/overview"
-          - Cross-site scripting: "attacks/web-application-attacks/cross-site-scripting.md"
-      - Network attacks:
-          - Man in the middle: "attacks/overview"
-          - TCP/IP attacks: "attacks/overview"
-          - ARP spoofing: "attacks/overview"
-          - DNS spoofing: "attacks/overview"
-          - Wireless attacks: "attacks/overview"
+  - Home: index.md
+  - Hacking training:
+      - OWASP Juice Shop: hacking-training/owasp-juice-shop.md
+      - OWASP WebGoat: hacking-training/owasp-webgoat.md
+      - Web Security Academy: hacking-training/web-security-academy.md
+
+#  - Web Application attacks:
+#    - web-application-attacks/index.md
+#    - Server-site:
+#        - SQL injection: "web-application-attacks/sql-injection.md"
+#        - Authentication vulnerabilities: "web-application-attacks/misc.md"
+#        - Directory traversal: "web-application-attacks/misc.md"
+#        - OS command injection: "web-application-attacks/misc.md"
+#        - Business logic vulnerabilities: "web-application-attacks/misc.md"
+#        - Information disclosure vulnerabilities: "web-application-attacks/misc.md"
+#        - Access control vulnerabilities and privilege escalation: "web-application-attacks/misc.md"
+#        - File upload vulnerabilities: "web-application-attacks/misc.md"
+#        - Server-side request forgery (SSRF): "web-application-attacks/misc.md"
+#        - XML external entity (XXE) injection: "web-application-attacks/misc.md"
+#    - Client-Site:
+#        - Cross-site scripting: "web-application-attacks/cross-site-scripting.md"
+#  - Network attacks:
+#    - "network-attacks/index.md"
+#    - Man in the middle: "network-attacks/index.md"
+#    - TCP/IP attacks: "network-attacks/index.md"
+#    - ARP spoofing: "network-attacks/index.md"
+#    - DNS spoofing: "network-attacks/index.md"
+#    - Wireless attacks: "network-attacks/index.md"
+#  - Blog: "blog.md"
   - Resources:
-    - Overview: "resources/overview.md"
-    - Certification: "resources/certification.md"
+#    - Resources: "resources/resources.md"
+#    - Certification: "resources/certification.md"
     - Tools: "resources/tools.md"
     - Links: "resources/links.md"
-  - About: about.md
+
 
 theme:
   name: material
@@ -46,19 +50,21 @@ theme:
   logo: assets/img/logo.png
   favicon: assets/img/favicon.ico
   palette:
-    scheme: slate
-    primary: indigo
+    scheme: purplesquad
   icon:
     repo: fontawesome/brands/git-alt
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
+#    - navigation.sections
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - toc
 
 extra:
   social:
@@ -71,7 +77,7 @@ extra:
 repo_url: https://github.com/purplesquad-io/knowledgebase
 repo_name: knowledgebase
 
-copyright: Copyright &copy; 2022 - 2022 purplesquad
+copyright: Copyright &copy; 2022 - 2023 purplesquad
 
 plugins:
   - git-revision-date-localized:

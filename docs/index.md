@@ -1,11 +1,9 @@
-# First chapter
+# purplesquad knowledgebase
 
-## First section
+Welcome to our knowledgebase about hacking attacks and security topics.
 
-## Secound section
+## Newest posts
 
-!!! Quote "Moo"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+| Date           | Section           | Subsection                                                 |
+|----------------|-------------------|------------------------------------------------------------|
+| March 19, 2023 | Hacking training  | [OWASP Juice Shop](hacking-training%2Fowasp-juice-shop.md) |
