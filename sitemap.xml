@@ -41,27 +41,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/resources/resources/</loc>
-         <lastmod>2023-03-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://knowledgebase.purplesquad.io/resources/tools/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/web-attacks/</loc>
-         <lastmod>2023-03-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://knowledgebase.purplesquad.io/web-attacks/cross-site-scripting/</loc>
-         <lastmod>2023-03-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://knowledgebase.purplesquad.io/web-attacks/misc/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
