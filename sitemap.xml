@@ -6,17 +6,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/hacking-training/owasp-juice-shop/</loc>
+         <loc>https://knowledgebase.purplesquad.io/learn/ethical-hacking-fundamentals/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/hacking-training/owasp-webgoat/</loc>
+         <loc>https://knowledgebase.purplesquad.io/learn/hacking-concepts-and-principles/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/hacking-training/web-security-academy/</loc>
+         <loc>https://knowledgebase.purplesquad.io/learn/hacking-techniques-and-tools/</loc>
+         <lastmod>2023-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.purplesquad.io/learn/hacking-types-of-attacks/</loc>
+         <lastmod>2023-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.purplesquad.io/learn/owasp-juice-shop/</loc>
+         <lastmod>2023-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.purplesquad.io/learn/owasp-webgoat/</loc>
+         <lastmod>2023-03-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.purplesquad.io/learn/web-security-academy/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -31,12 +51,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.purplesquad.io/resources/links/</loc>
-         <lastmod>2023-03-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://knowledgebase.purplesquad.io/resources/tools/</loc>
+         <loc>https://knowledgebase.purplesquad.io/resources/tools-and-resources/</loc>
          <lastmod>2023-03-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
