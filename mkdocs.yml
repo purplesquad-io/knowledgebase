@@ -8,15 +8,17 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Learn Ethical Hacking:
-      - Fundamentals: learn/ethical-hacking-fundamentals.md
-      - Concepts and Principles: learn/hacking-concepts-and-principles.md
-      - Techniques and Tools: learn/hacking-techniques-and-tools.md
-      - Types of Attacks: learn/hacking-types-of-attacks.md
-      - Practical Training:
-        - OWASP Juice Shop: learn/owasp-juice-shop.md
-        - OWASP WebGoat: learn/owasp-webgoat.md
-        - Web Security Academy: learn/web-security-academy.md
+  - Ethical Hacking:
+      - Fundamentals: ethical-hacking/fundamentals.md
+#  - Learn Ethical Hacking:
+#      - Fundamentals: learn/ethical-hacking-fundamentals.md
+#      - Concepts and Principles: learn/hacking-concepts-and-principles.md
+#      - Techniques and Tools: learn/hacking-techniques-and-tools.md
+#      - Types of Attacks: learn/hacking-types-of-attacks.md
+#      - Practical Training:
+#        - OWASP Juice Shop: learn/owasp-juice-shop.md
+#        - OWASP WebGoat: learn/owasp-webgoat.md
+#        - Web Security Academy: learn/web-security-academy.md
 
 #  - Web Application attacks:
 #    - web-application-attacks/index.md
