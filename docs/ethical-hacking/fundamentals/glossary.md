@@ -62,10 +62,8 @@ Add description
 ### NDA
 Add description
 ### Nikto
-Add description
+Nikto is an open source web server scanner written in Perl<span style="font-size: .6rem">[ ... READ MORE](..%2Ftools%2Fnikto.md)</span>
 ### NVD
-Add description
-### Nikto
 Add description
 ## O
 ### OSINT

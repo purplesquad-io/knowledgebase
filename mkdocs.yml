@@ -7,52 +7,17 @@ site_description: >-
   purplesquad.io - The ethical hacking squad
 
 nav:
-  - Home: index.md
+#   - Home: index.md
   - Ethical Hacking:
-      - Fundamentals: ethical-hacking/fundamentals.md
-#  - Learn Ethical Hacking:
-#      - Fundamentals: learn/ethical-hacking-fundamentals.md
-#      - Concepts and Principles: learn/hacking-concepts-and-principles.md
-#      - Techniques and Tools: learn/hacking-techniques-and-tools.md
-#      - Types of Attacks: learn/hacking-types-of-attacks.md
-#      - Practical Training:
-#        - OWASP Juice Shop: learn/owasp-juice-shop.md
-#        - OWASP WebGoat: learn/owasp-webgoat.md
-#        - Web Security Academy: learn/web-security-academy.md
-
-#  - Web Application attacks:
-#    - web-application-attacks/index.md
-#    - Server-site:
-#        - SQL injection: "web-application-attacks/sql-injection.md"
-#        - Authentication vulnerabilities: "web-application-attacks/misc.md"
-#        - Directory traversal: "web-application-attacks/misc.md"
-#        - OS command injection: "web-application-attacks/misc.md"
-#        - Business logic vulnerabilities: "web-application-attacks/misc.md"
-#        - Information disclosure vulnerabilities: "web-application-attacks/misc.md"
-#        - Access control vulnerabilities and privilege escalation: "web-application-attacks/misc.md"
-#        - File upload vulnerabilities: "web-application-attacks/misc.md"
-#        - Server-side request forgery (SSRF): "web-application-attacks/misc.md"
-#        - XML external entity (XXE) injection: "web-application-attacks/misc.md"
-#    - Client-Site:
-#        - Cross-site scripting: "web-application-attacks/cross-site-scripting.md"
-#  - Network attacks:
-#    - "network-attacks/index.md"
-#    - Man in the middle: "network-attacks/index.md"
-#    - TCP/IP attacks: "network-attacks/index.md"
-#    - ARP spoofing: "network-attacks/index.md"
-#    - DNS spoofing: "network-attacks/index.md"
-#    - Wireless attacks: "network-attacks/index.md"
-#  - Blog: "blog.md"
+      - Fundamentals:
+        - Glossary: ethical-hacking/fundamentals/glossary.md
+      - Tools:
+        - nmap: ethical-hacking/tools/nmap.md
+        - nikto: ethical-hacking/tools/nikto.md
   - Tools and Resources: resources/tools-and-resources.md
-#    - Resources: "resources/resources.md"
-#    - Certification: "resources/certification.md"
-#    - Tools: "
-#    - Links: "resources/links.md"
-
 
 theme:
   name: material
-#  custom_dir: material
   language: en
   logo: assets/img/logo.png
   favicon: assets/img/favicon.ico
@@ -64,9 +29,10 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 #    - navigation.sections
+
 extra_css:
   - stylesheets/extra.css
-
+  -
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -76,6 +42,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
 
 extra:
   social:
