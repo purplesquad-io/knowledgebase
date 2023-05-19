@@ -1,4 +1,4 @@
-# Glossary of hacking
+# Glossary of hacking terms
 ## A
 ## B
 ### Blackwidow
