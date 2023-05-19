@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: purplesquad knowledge base
+site_name: purplesquad.io
 site_url: https://purplesquad.io/
 site_author: purplesquad
 site_description: >-
-  Add a site description
+  purplesquad.io - The ethical hacking squad
 
 nav:
   - Home: index.md
