@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://purplesquad.io/ethical-hacking/fundamentals/</loc>
+         <loc>https://purplesquad.io/ethical-hacking/fundamentals/glossary/</loc>
+         <lastmod>2023-05-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/nikto/</loc>
+         <lastmod>2023-05-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/nmap/</loc>
          <lastmod>2023-05-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
