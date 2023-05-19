@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
 site_name: purplesquad knowledge base
-site_url: https://knowledgebase.purplesquad.io/
+site_url: https://purplesquad.io/
 site_author: purplesquad
 site_description: >-
   Add a site description
