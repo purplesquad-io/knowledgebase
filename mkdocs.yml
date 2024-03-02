@@ -7,13 +7,21 @@ site_description: >-
   purplesquad.io - The ethical hacking squad
 
 nav:
-#   - Home: index.md
+  #   - Home: index.md
   - Ethical Hacking:
       - Fundamentals:
-        - Glossary: ethical-hacking/fundamentals/glossary.md
+          - Glossary: ethical-hacking/fundamentals/glossary.md
       - Tools:
-        - nmap: ethical-hacking/tools/nmap.md
-        - nikto: ethical-hacking/tools/nikto.md
+          - OSINT:
+              - Blackwidow: ethical-hacking/tools/Blackwidow.md
+              - nikto: ethical-hacking/tools/nikto.md
+              - nmap: ethical-hacking/tools/nmap.md
+          - Password Cracking:
+              - Aircrack: ethical-hacking/tools/Aircrack.md
+              - John the Ripper: ethical-hacking/tools/JohntheRipper.md
+          - Other Tools: ethical-hacking/tools/OtherTools.md
+
+
   - Tools and Resources: resources/tools-and-resources.md
 
 theme:
