@@ -11,6 +11,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/Aircrack/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/Blackwidow/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/JohntheRipper/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://purplesquad.io/ethical-hacking/tools/OtherTools/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://purplesquad.io/ethical-hacking/tools/nikto/</loc>
          <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
