@@ -17,10 +17,10 @@ nav:
               - nikto: ethical-hacking/tools/nikto.md
               - nmap: ethical-hacking/tools/nmap.md
           - Password Cracking:
-              - Aircrack: ethical-hacking/tools/Aircrack.md
               - John the Ripper: ethical-hacking/tools/JohntheRipper.md
+          - Wireless:
+              - Aircrack: ethical-hacking/tools/Aircrack.md
           - Other Tools: ethical-hacking/tools/OtherTools.md
-
 
   - Tools and Resources: resources/tools-and-resources.md
 
