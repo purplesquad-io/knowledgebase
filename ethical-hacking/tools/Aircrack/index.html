@@ -631,9 +631,19 @@
 
 <h1 id="aircrack-ng">Aircrack-ng</h1>
 <h2 id="description">Description</h2>
-<p>Aircrack-ng is a complete suite of tools to assess WiFi network security.</p>
+<p>Aircrack-ng is a complete suite of tools to assess WiFi network security.
+- Airmon-ng: Used to enable monitor mode on a wireless adapter, allowing you to capture network traffic.
+- Airodump-ng: Captures network traffic, focusing on identifying wireless networks and capturing data packets.
+- Airgraph-ng: Generates graphical representations of network traffic based on captured data, providing a visual representation of network activity.
+- Aireplay-ng: Creates network traffic and performs various attacks, such as deauthentication and packet injection, to manipulate network behavior.
+- Aircrack-ng: The flagship tool that cracks WEP and WPA/WPA2 encryption keys, allowing you to assess the strength of your network's security.
+- Airbase-ng: Creates fake access points for testing network security, performing man-in-the-middle attacks, or social engineering purposes.</p>
 <h2 id="examples">Examples</h2>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>still <span class="k">in</span> work
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># put your wireless card into monitor mode using airmon-ng</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>airmon-ng start wlan0
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># to look out for networks</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>airodump-ng wlan0mon
 </span></code></pre></div>
 <h2 id="additional-informations">Additional informations</h2>
 <div class="admonition info">
